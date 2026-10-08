@@ -15,7 +15,7 @@
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
-  <remote name="EA"          fetch="https://github.com/embeddedartists"/>
+  <remote name="EA"          fetch="https://github.com/jameel-kareem2"/>
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
   <project name="bitbake" remote="oe" path="sources/bitbake" revision="a2dd9be788274d9c7280be5b1be5eb5c3990cf54" upstream="2.18"/>
