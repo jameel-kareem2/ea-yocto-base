@@ -15,7 +15,8 @@
   <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
-  <remote name="EA"          fetch="https://github.com/jameel-kareem2"/>
+  <remote name="EA"          fetch="https://github.com/embeddedartists"/>
+  <remote name="JK"          fetch="https://github.com/jameel-kareem2"/>
   <remote name="Murata"      fetch="https://github.com/murata-wireless"/>
 
   <project name="bitbake" remote="oe" path="sources/bitbake" revision="a2dd9be788274d9c7280be5b1be5eb5c3990cf54" upstream="2.18"/>
@@ -46,7 +47,7 @@
   <project name="meta-nxp-connectivity" remote="imx" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="imx_matter_2026_q1-post" />
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="wrynose-6.18.20-2.0.0" />
 
-  <project remote="EA" name="meta-ea" path="sources/meta-ea" revision="7312d55b820e03c8d9b76b355086f13649cf4588" >
+  <project remote="JK" name="meta-ea" path="sources/meta-ea" revision="7312d55b820e03c8d9b76b355086f13649cf4588" >
      <copyfile src="ea-setup-release.sh" dest="ea-setup-release.sh"/>
   </project>
 
